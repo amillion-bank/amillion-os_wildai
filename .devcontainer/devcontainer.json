@@ -1,0 +1,17 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "name": "rhinop5~wildai"
+  "forwardports":1024, 127.0.0.1:5900" }
+ "portsAttributes": {"1024": {"localhost": "5900" } }
+"containerEnv": { "organic-goldfish.env": "${localEnv:organic-goldfish.env" }
+    
+"appPort": {0.0.0.0}
+
+    
+
+
+
+
+  
+}
