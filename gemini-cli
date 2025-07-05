@@ -1,0 +1,4 @@
+npm install -g @google/gemini-cli
+gemini
+
+API_KEY="AIzaSyCWJ08D7CXOErEGNeiY-D8rnbdfPKjFSVg"
