@@ -1,7 +1,7 @@
 curl https://api.cloudflare.com/client/v4/zones \
     -H 'Content-Type: application/json' \
     -H "X-Auth-Email: $trice8987@gmail.com" \
-    -H "X-Auth-Key: $CLOUDFLARE_API_KEY" \
+    -H "X-Auth-Key: $tU3mK0DAF7RbEKN9D4srSs-RnwqpnUJp2UNscu5e" \
     -d '{
       "account": {},
       "name": "amilliondesigns.com",
