@@ -4,7 +4,7 @@ import google.generativeai as genai import json, time, os from datetime import d
 
 🔑 CONFIGURATION
 
-API_KEY = os.getenv("GEMINI_API_KEY")  # or hardcode it here (not recommended) genai.configure(api_key=API_KEY)
+API_KEY = os.getenv("AIzaSyCWJ08D7CXOErEGNeiY-D8rnbdfPKjFSVg")  # or hardcode it here (not recommended) genai.configure(api_key=API_KEY)
 
 🧠 MODEL INIT
 
