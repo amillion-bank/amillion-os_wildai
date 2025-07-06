@@ -1,0 +1,71 @@
+curl https://api.cloudflare.com/client/v4/zones \
+    -H 'Content-Type: application/json' \
+    -H "X-Auth-Email: $trice8987@gmail.com" \
+    -H "X-Auth-Key: $CLOUDFLARE_API_KEY" \
+    -d '{
+      "account": {},
+      "name": "amilliondesigns.com",
+      "type": "full"
+    }'
+
+{
+  "errors": [
+    {
+      "code": 1000,
+      "message": "message",
+      "documentation_url": "documentation_url",
+      "source": {
+        "pointer": "pointer"
+      }
+    }
+  ],
+  "messages": [
+    {
+      "code": 1000,
+      "message": "message",
+      "documentation_url": "documentation_url",
+      "source": {
+        "pointer": "pointer"
+      }
+    }
+  ],
+  "success": true,
+  "result": {
+    "id": "023e105f4ecef8ad9ca31a8372d0c353",
+    "account": {
+      "id": "023e105f4ecef8ad9ca31a8372d0c353",
+      "name": "Trice8987@gmail.com"
+      "meta": {
+      "cdn_only": true,
+      "custom_certificate_quota": 1,
+      "dns_only": true,
+      "foundation_dns": true,
+      "page_rule_quota": 100,
+      "phishing_detected": false,
+      "step": 2
+    },
+    "name": "amilliondesigns.com",
+    "owner": "Trice Helsel" {
+      "id": "023e105f4ecef8ad9ca31a8372d0c353",
+      "name": "amilliondesigns",
+      "type": "organization"
+    },
+    "cname_suffix": "cdn.cloudflare.com",
+    "paused": true,
+    "permissions": [
+      "#worker:read"
+    ],
+    "tenant": {
+      "id": "023e105f4ecef8ad9ca31a8372d0c353",
+      "name": "AmillionProductsLLC"
+    },
+    "tenant_unit": {
+      "id": "023e105f4ecef8ad9ca31a8372d0c353"
+    },
+    "type": "full",
+    "vanity_name_servers": [
+      "ns1.amilliondesigns.com",
+      "ns2.amilliondesigns.com"
+    ]
+  }
+}
