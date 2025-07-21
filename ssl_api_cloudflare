@@ -1,0 +1,8 @@
+Get SSL setting
+Get https://api.cloudflare.com/client/v4/zones/b1113ca3dabf3e8ce6acce799e67846a/settings/ssl
+
+Change SSL setting
+Patch https://api.cloudflare.com/client/v4/zones/b1113ca3dabf3e8ce6acce799e67846a/settings/ssl
+
+Get verification status
+GET https://api.cloudflare.com/client/v4/zones/b1113ca3dabf3e8ce6acce799e67846a/ssl/verification
